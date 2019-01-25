@@ -18,7 +18,7 @@ class Xpscommerce_CustomoptionsPricegrid_Block_Adminhtml_Products
                 ->addAttributeToFilter(
                     array(
                         array('attribute' => 'name', 'like' => "%{$search}%", 'attribute' => 'sku', 'like' => "%{$search}%"),
-                        //array('attribute' => 'sku', 'like' => "%{$search}%", 'attribute' => 'entity_id', '!=' => 'entity_id'),
+                        //array('attribute' => 'sku', 'like' => "%{$search}%"),
                         )
                     )
                 ->load();
